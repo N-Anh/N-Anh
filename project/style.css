@@ -1,0 +1,33 @@
+.product-row {
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+.product-row:hover {
+    background-color: #f1f1f1;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 10;
+}
+.product-row:hover .overlay {
+    opacity: 1;
+}
+.overlay button {
+    margin: 0 5px;
+}
+img {
+    width: 60;
+    height: 60px;
+    object-fit: cover;
+}
