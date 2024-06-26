@@ -1,0 +1,17 @@
+1. Cài đặt composer
+2. Cài đặt xampp
+2. Cài đặt cơ sở dữ liệu dùng file hrm.sql
+	Mở phpAdmin từ xampp, tạo cơ sở dữ liệu mới tên hrm và nhập dữ liệu từ file hrm.sql
+3. Cấu hình kết nối đến cơ sở dữ liệu trong file .env:
+	DB_CONNECTION=mysql
+	DB_HOST=127.0.0.1
+	DB_PORT=3307
+	DB_DATABASE=hrm
+	DB_USERNAME=root
+	DB_PASSWORD=
+2. Chạy chương trình: 
+	php artisan migrate
+	php artisan serve
+
+
+

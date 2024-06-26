@@ -1,0 +1,98 @@
+.card-chart {
+    /* height: 350px;
+    width: 350px; */
+}
+.card-noti {
+    /* height: 350px;
+    width: 230px; */
+    background: #2972ba;
+}
+.card-noti h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.card-noti select {
+    border: none;
+    background: #2972ba;
+    color: white;
+}
+.card-noti .title {
+    color: white;
+    font-weight: bold;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.nearing-expiration {
+    margin-top: 50px;
+}
+.employee-contract {
+    margin-top: 90px;
+}
+.expired {
+    margin-top: 112px;
+}
+.display-report:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Dialog */
+.modal {
+    display: none; 
+    position: fixed; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 2000;
+}
+
+.close-button {
+    font-size: 32px;
+    cursor: pointer;
+}
+.btn-export {
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    width: 130px;
+}
+.btn-export i {
+    font-size: 24px;
+}
+.btn-export:hover {
+    opacity: 0.8;
+}
